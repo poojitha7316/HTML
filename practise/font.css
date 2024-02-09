@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 100%;
+}
+#subnav{
+    height: inherit;
+    height: 80px;
+    width: 60%;
+    /* border: 2px solid red; */
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding-top: 30px;
+    margin-left: 250px;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    background: transparent;
+    color:rgb(55, 54, 54);
+}
+aside span{
+    background-image: url("./apple_files/font\ awsome\ .1.svg");
+    height: 810px;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 140px;
+    right: 1270px;
+}
+aside+aside{
+    background-image: url("./apple_files/font\ awsome\ .1.svg");
+    height: 810px;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 140px;
+    left: 1270px;
+}
+#demo1{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 1000px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    text-align: center;
+    font-size: 1.5em;
+    word-spacing: 0%;
+    font-weight:bolder;
+    font-family:fa-livory, "Georgia", "Times New Roman", "Times", serif;;
+    color: #19214a;
+}
+span{
+    color:orange;
+}
+#demo3{
+    position: absolute;
+    top: 300px;
+    left: 440px;
+    text-align: center;
+    font-size: 1.5em;
+    word-spacing: 0%;
+    font-weight:600;
+    color: #19214a;
+}
+.center-text{
+    position: absolute;
+    top: 300px;
+    left: 560px;
+    font-size: 1.5em;
+    font-weight:lighter;
+    color: #19214a;
+    text-align: center;
+    display: inline-block;
+
+}
+#demo4{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #19214a;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+#demo5{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:orange;
+    color: #19214a;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left: 750px;
+    top: 400px;
+}
+#men{
+    background-image: url("./asserts/men.avif");
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    display: flex;
+    width: 200px;
+    height: 450px;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 540px;
+    left: 300px;
+}
+#end{
+    align-self: auto;
+    position: absolute;
+    right: 250px;
+    
+}
+#start{
+    align-self: auto;
+    position: absolute;
+    left: 150px;
+}

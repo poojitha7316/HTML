@@ -1,0 +1,394 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+:root{
+    --text-color:rgba(255, 255, 255, .8);
+    --bg-color:rgba(0,0,0, .8);
+    --text-heading:#0071E3;
+    --text-heading11:#1d1d1f;
+
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: var(--bg-color);
+}
+
+#sub-nav{
+     /* border: 2px solid red;  */
+    height: inherit;
+    width: 65%;
+    margin: auto;
+}
+
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+
+#main{
+    /* border: 2px solid; */
+    height: 620px;
+    background-image: url("./apple_files/iphine..jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+#header{
+    color:white ;
+    padding-top: 55px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.head{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#sub-main{
+    /* border: 2px solid; */
+    height: 620px;
+    background-image: url("./apple_files/iphone.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: var(--text-color);
+    
+    
+}
+
+#link a{
+     /* border: 2px solid;  */
+     font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #0071E3;
+    margin-right: 24px;
+    justify-content: space-evenly;
+
+}
+
+#link a:hover{
+    text-decoration:underline ;
+}
+
+#heades{
+    color:var(--bg-color) ;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    padding:60px;
+}
+
+.heads{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#links a{
+    /* border: 2px solid;  */
+    font-size: 25px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+   margin-right: 24px;
+}
+
+#links a:hover{
+    text-decoration:underline ;
+}
+
+
+#video{
+     /* border: 2px solid; */
+     height: 620px;
+     background-image: url("./apple_files/iphone.3.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-color: var(--text-color);
+     margin-top: 10px;
+}
+
+#video1{
+    color:white ;
+    padding-top: 55px;
+    text-align: center ;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+
+#box{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+#figure{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 630px;
+    background-image: url("./apple_files/iphone.4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:10px 10px 10px 10px;
+    
+
+    
+}
+
+#cpu{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 600px;
+    background-image: url("./apple_files/iphone5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 660px;
+    position: absolute;
+    top: 1930px;
+    background-position: center ;
+    margin-top: 10px;
+    margin-right: 20PX;
+}
+
+#ipad{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 630px;
+    background-image: url("./apple_files/iphone6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:10px;
+    margin-left: 10px;
+    
+    
+}
+
+#air{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 600px;
+    background-image: url("./apple_files/iphone7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 660px;
+    position: absolute;
+    top: 2430px;
+    background-position: center ;
+    margin-top:20pX;
+    margin-right:20px;
+}
+
+#demo{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 630px;
+    background-image: url("./apple_files/iphone8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:10px;
+    margin-left: 10px;
+    
+}
+
+#iphone{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 600px;
+    background-image: url("./apple_files/iphone9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 660px;
+    position: absolute;
+    top: 2930px;
+    background-position: center ;
+    margin-top:30px;
+    margin-right: 20px;
+}
+
+#cont1{
+    /* border: 2px solid; */
+    color:var(--bg-color) ;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 30px;
+    line-height: 1.5;
+    padding: 30px;
+    
+    
+}
+
+.content{
+    font-size: 20px;
+    font-weight: 120;
+
+}
+
+
+#cont1 a{
+    /* border: 2px solid;  */
+    font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+   margin-top: 5px;
+   
+}
+
+#cont1 h4{
+    font-size: 30px;
+}
+
+
+#cont1 h2{
+    font-size: 10px;
+    text-align: center;
+    color: orangered;
+}
+
+#cont2{
+    /* border: 2px solid; */
+    color:var(--bg-color) ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+    padding: 30px;
+    
+    
+}
+
+.content1{
+    font-size: 20px;
+    font-weight: 120;
+
+}
+
+#cont2 a{
+    /* border: 2px solid;  */
+    font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+}
+
+#cont3{
+    /* border: 2px solid; */
+    color:var(--bg-color) ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+#cont3 a{
+    /* border: 2px solid;  */
+    font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+}
+
+#cont4{
+    /* border: 2px solid; */
+    color:var(--text-color) ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+#cont4 a{
+    /* border: 2px solid;  */
+    font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+}
+
+#cont5{
+    /* border: 2px solid; */
+    color:var(--bg-color) ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+#cont5 a{
+    /* border: 2px solid;  */
+    font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+}
+
+#cont6{
+    /* border: 2px solid; */
+    color:var(--bg-color) ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 20px;
+    line-height: 1.2;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+#cont6 a{
+    /* border: 2px solid;  */
+    font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: #0071E3;
+   justify-content: space-evenly;
+   line-height: 1.5;
+}
